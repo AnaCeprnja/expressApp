@@ -1,0 +1,11 @@
+<h1 class= 'text-center'>Days</h1>
+<ul class= "list-group">
+<% spaceX.forEach ( space => { %>
+    <li class= "list-group-item">
+        <a href = '/days/<%= day.id %>' >
+            <%=  %> - <%=  %> - <%=  %>
+        </a>
+    </li>
+<% }) %>
+
+</ul>
